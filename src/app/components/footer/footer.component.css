@@ -1,0 +1,14 @@
+:root {
+  --footer-height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--footer-height);
+  color: white;
+  font-weight: 700;
+  /*background-image: linear-gradient(70deg, rgb(18, 235, 116) 35%, rgb(255, 0, 21) 85%, yellow 35%);*/
+  background-image: linear-gradient(70deg, black 0%, cyan 100%);
+}
